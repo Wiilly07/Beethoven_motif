@@ -12,7 +12,7 @@ For the csv file in the folder "csv_notes", each row represents a note event fro
 * measure (-1 for incomplete measure)
 * motif type (no value means the note doesn't belong to a motif)
 
-In the folder "motif_midi", all tempi of midi files are 60 quarter notes per minute, and they only contain notes belonging to motifs instead of complete notes. To manipulate motifs effectively, we can use the label in the folder "label_csv" to help us to retrieve a certain motif.
+In the folder "motif_midi", all tempi of midi files are 60 quarter notes per minute, and they only contain notes belonging to motifs instead of complete notes. To retrieve a certain motif, we can utilize the label in the folder "label_csv".
 For the csv file in "label_csv", each row carries the informations of a motif. 
 The most important informations (columns) are "start_midi", "end_midi", "track", and "type". Other informations are only useful for checking and debugging.
 * start_midi: the start time (in second) of the motif.
