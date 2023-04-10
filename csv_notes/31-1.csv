@@ -1,3 +1,4 @@
+onset,midi_number,morphetic_number,duration,staff_number,measure,type
 0.0,44,51,1.5,1,1,
 0.0,51,55,1.5,1,1,
 0.0,68,65,1.5,0,1,
